@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { UsersComponent } from './intermedio/users/users.component';
@@ -12,6 +13,7 @@ import { IncrementComponent } from './intermedio/increment/increment.component';
     UsersComponent,
     UserComponent,
     IncrementComponent,
+    FormsModule
   ],
   imports: [
     BrowserModule
